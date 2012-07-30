@@ -1,0 +1,7 @@
+--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+checkId = null, type = Carte
+checkId = 6004253.0, type = Chèque
+checkId = null, type = Virement
+checkId = null, type = Prélèvement

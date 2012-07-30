@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MBP-Alex.local" name="spendings.ExcelServiceTests" tests="3" time="2.926" timestamp="2012-07-30T15:20:53">
+  <properties />
+  <testcase classname="spendings.ExcelServiceTests" name="testDateParsing" time="0.724" />
+  <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.041" />
+  <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="1.645" />
+  <system-out><![CDATA[--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+checkId = null, type = Carte
+checkId = 6004253.0, type = Chèque
+checkId = null, type = Virement
+checkId = null, type = Prélèvement
+]]></system-out>
+  <system-err><![CDATA[--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+]]></system-err>
+</testsuite>

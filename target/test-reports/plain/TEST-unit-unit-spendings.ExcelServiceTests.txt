@@ -1,0 +1,20 @@
+Testsuite: spendings.ExcelServiceTests
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2,926 sec
+------------- Standard Output ---------------
+--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+checkId = null, type = Carte
+checkId = 6004253.0, type = Chèque
+checkId = null, type = Virement
+checkId = null, type = Prélèvement
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+------------- ---------------- ---------------
+
+Testcase: testDateParsing took 0,724 sec
+Testcase: testTypeParsing took 0,041 sec
+Testcase: testImportingFile took 1,645 sec

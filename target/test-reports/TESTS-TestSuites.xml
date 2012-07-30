@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="0" name="ExcelServiceTests" package="spendings" tests="3" time="2.926" timestamp="2012-07-30T15:20:53">
+      <properties />
+
+      <testcase classname="spendings.ExcelServiceTests" name="testDateParsing" time="0.724" />
+
+      <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.041" />
+
+      <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="1.645" />
+
+      <system-out><![CDATA[--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+checkId = null, type = Carte
+checkId = 6004253.0, type = Chèque
+checkId = null, type = Virement
+checkId = null, type = Prélèvement
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testDateParsing--
+--Output from testTypeParsing--
+--Output from testImportingFile--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="1" name="SpendingControllerTests" package="spendings" tests="1" time="1.76" timestamp="2012-07-30T15:20:56">
+      <properties />
+
+      <testcase classname="spendings.SpendingControllerTests" name="testSomething" time="1.597" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="2" name="SpendingTests" package="spendings" tests="1" time="0.24" timestamp="2012-07-30T15:20:58">
+      <properties />
+
+      <testcase classname="spendings.SpendingTests" name="testConstraints" time="0.237" />
+
+      <system-out><![CDATA[--Output from testConstraints--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testConstraints--
+]]></system-err>
+
+  </testsuite>
+</testsuites>
