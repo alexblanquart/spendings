@@ -6,9 +6,9 @@ class SpendingController {
 
 	def excelService
 	
-    //def index() { }
-	def importExcelFile(){
-		
-
+	def importExcelFile = {
+		def fileName = params.fileName
+		excelService.importFile fileName
+		redirect action:'list'
 	}
 }

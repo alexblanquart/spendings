@@ -8,9 +8,9 @@ class ExcelService {
 	 * @return
 	 */
 	def importFile(String fileName) {
+		println "Importing : " + fileName + " ..."
 		new ExcelBuilder(fileName).eachLine([labels:true]) {
 			// call intermediate methods for date and type parsing from string representations
-			println "checkId = ${checkId}, type = ${type}"
 			def spending = new Spending(date:getDateFromString(date), amount:amount, type:getTypeFromString(type), label:label, checkId:checkId)
 			if (!spending.save()) {
 				spending.errors.each { println it }

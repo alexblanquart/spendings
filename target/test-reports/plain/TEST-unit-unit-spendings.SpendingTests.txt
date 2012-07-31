@@ -1,5 +1,5 @@
 Testsuite: spendings.SpendingTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,24 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,25 sec
 ------------- Standard Output ---------------
 --Output from testConstraints--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,24 sec
 --Output from testConstraints--
 ------------- ---------------- ---------------
 
-Testcase: testConstraints took 0,237 sec
+Testcase: testConstraints took 0,247 sec

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MBP-Alex.local" name="spendings.SpendingControllerTests" tests="1" time="1.76" timestamp="2012-07-30T15:20:56">
+<testsuite errors="0" failures="0" hostname="MBP-Alex.local" name="spendings.SpendingControllerTests" tests="1" time="1.353" timestamp="2012-07-31T07:36:31">
   <properties />
-  <testcase classname="spendings.SpendingControllerTests" name="testSomething" time="1.597" />
-  <system-out><![CDATA[--Output from testSomething--
+  <testcase classname="spendings.SpendingControllerTests" name="testImportExcelFile" time="1.234" />
+  <system-out><![CDATA[--Output from testImportExcelFile--
 ]]></system-out>
-  <system-err><![CDATA[--Output from testSomething--
+  <system-err><![CDATA[--Output from testImportExcelFile--
 ]]></system-err>
 </testsuite>
