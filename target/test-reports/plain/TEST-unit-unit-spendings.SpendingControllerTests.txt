@@ -1,5 +1,5 @@
 Testsuite: spendings.SpendingControllerTests
-Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,353 sec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,701 sec
 ------------- Standard Output ---------------
 --Output from testImportExcelFile--
 ------------- ---------------- ---------------
@@ -7,4 +7,4 @@ Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 1,353 sec
 --Output from testImportExcelFile--
 ------------- ---------------- ---------------
 
-Testcase: testImportExcelFile took 1,234 sec
+Testcase: testImportExcelFile took 1,573 sec

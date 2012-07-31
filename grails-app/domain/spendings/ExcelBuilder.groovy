@@ -17,7 +17,7 @@ class ExcelBuilder {
 	def labels
 	def row
 
-	ExcelBuilder(String fileName) {
+	ExcelBuilder(InputStream stream) {
 		HSSFRow.metaClass.getAt = {int idx ->
 			def cell = delegate.getCell(idx)
 			if(! cell) {
@@ -41,10 +41,7 @@ class ExcelBuilder {
 			}
 			return value
 		}
-
-		new File(fileName).withInputStream{is->
-			workbook = new HSSFWorkbook(is)
-		}
+		workbook = new HSSFWorkbook(stream)
 	}
 
 	def getSheet(idx) {

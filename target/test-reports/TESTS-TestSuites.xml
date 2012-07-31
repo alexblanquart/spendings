@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="0" name="ExcelServiceTests" package="spendings" tests="3" time="2.081" timestamp="2012-07-31T07:36:29">
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="0" name="ExcelServiceTests" package="spendings" tests="3" time="2.899" timestamp="2012-07-31T12:47:44">
       <properties />
 
-      <testcase classname="spendings.ExcelServiceTests" name="testDateParsing" time="0.696" />
+      <testcase classname="spendings.ExcelServiceTests" name="testDateParsing" time="0.773" />
 
-      <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.036" />
+      <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.037" />
 
-      <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="0.935" />
+      <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="1.444" />
 
       <system-out><![CDATA[--Output from testDateParsing--
 --Output from testTypeParsing--
 --Output from testImportingFile--
-Importing : test/unit/spendings/basic.xls ...
+Importing ...
 ]]></system-out>
 
       <system-err><![CDATA[--Output from testDateParsing--
@@ -21,10 +21,10 @@ Importing : test/unit/spendings/basic.xls ...
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="1" name="SpendingControllerTests" package="spendings" tests="1" time="1.353" timestamp="2012-07-31T07:36:31">
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="1" name="SpendingControllerTests" package="spendings" tests="1" time="1.701" timestamp="2012-07-31T12:47:47">
       <properties />
 
-      <testcase classname="spendings.SpendingControllerTests" name="testImportExcelFile" time="1.234" />
+      <testcase classname="spendings.SpendingControllerTests" name="testImportExcelFile" time="1.573" />
 
       <system-out><![CDATA[--Output from testImportExcelFile--
 ]]></system-out>
@@ -33,10 +33,10 @@ Importing : test/unit/spendings/basic.xls ...
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="2" name="SpendingTests" package="spendings" tests="1" time="0.25" timestamp="2012-07-31T07:36:32">
+  <testsuite errors="0" failures="0" hostname="MBP-Alex.local" id="2" name="SpendingTests" package="spendings" tests="1" time="0.288" timestamp="2012-07-31T12:47:49">
       <properties />
 
-      <testcase classname="spendings.SpendingTests" name="testConstraints" time="0.247" />
+      <testcase classname="spendings.SpendingTests" name="testConstraints" time="0.283" />
 
       <system-out><![CDATA[--Output from testConstraints--
 ]]></system-out>

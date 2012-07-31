@@ -26,8 +26,9 @@ class ExcelServiceTests {
 	}
 	
 	void testImportingFile(){
-		def fileName = "test/unit/spendings/basic.xls"
-		service.importFile fileName
+		new File("test/unit/spendings/basic.xls").withInputStream { stream ->
+			service.importData stream
+		}
 		assert Spending.count() != 0
 	}
 }

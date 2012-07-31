@@ -3,13 +3,13 @@ package spendings
 class ExcelService {
 
 	/**
-	 * Save each line of this excel file as a Spending object in database
-	 * @param fileName	path to file
+	 * Save each line of this input stream as a Spending object in database
+	 * @param stream	stream representing an excel file
 	 * @return
 	 */
-	def importFile(String fileName) {
-		println "Importing : " + fileName + " ..."
-		new ExcelBuilder(fileName).eachLine([labels:true]) {
+	def importData(InputStream stream) {
+		println "Importing ..."
+		new ExcelBuilder(stream).eachLine([labels:true]) {
 			// call intermediate methods for date and type parsing from string representations
 			def spending = new Spending(date:getDateFromString(date), amount:amount, type:getTypeFromString(type), label:label, checkId:checkId)
 			if (!spending.save()) {

@@ -1,10 +1,10 @@
 Testsuite: spendings.ExcelServiceTests
-Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2,081 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 2,899 sec
 ------------- Standard Output ---------------
 --Output from testDateParsing--
 --Output from testTypeParsing--
 --Output from testImportingFile--
-Importing : test/unit/spendings/basic.xls ...
+Importing ...
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from testDateParsing--
@@ -12,6 +12,6 @@ Importing : test/unit/spendings/basic.xls ...
 --Output from testImportingFile--
 ------------- ---------------- ---------------
 
-Testcase: testDateParsing took 0,696 sec
-Testcase: testTypeParsing took 0,036 sec
-Testcase: testImportingFile took 0,935 sec
+Testcase: testDateParsing took 0,773 sec
+Testcase: testTypeParsing took 0,037 sec
+Testcase: testImportingFile took 1,444 sec
