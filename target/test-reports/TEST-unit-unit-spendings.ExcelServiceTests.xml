@@ -1,16 +1,205 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="MBP-Alex.local" name="spendings.ExcelServiceTests" tests="3" time="2.899" timestamp="2012-07-31T12:47:44">
+<testsuite errors="0" failures="0" hostname="MBP-Alex.local" name="spendings.ExcelServiceTests" tests="2" time="2.392" timestamp="2012-08-30T14:56:34">
   <properties />
-  <testcase classname="spendings.ExcelServiceTests" name="testDateParsing" time="0.773" />
-  <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.037" />
-  <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="1.444" />
-  <system-out><![CDATA[--Output from testDateParsing--
---Output from testTypeParsing--
+  <testcase classname="spendings.ExcelServiceTests" name="testTypeParsing" time="0.701" />
+  <testcase classname="spendings.ExcelServiceTests" name="testImportingFile" time="1.234" />
+  <system-out><![CDATA[--Output from testTypeParsing--
 --Output from testImportingFile--
-Importing ...
+Importing data ...
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
 ]]></system-out>
-  <system-err><![CDATA[--Output from testDateParsing--
---Output from testTypeParsing--
+  <system-err><![CDATA[--Output from testTypeParsing--
 --Output from testImportingFile--
 ]]></system-err>
 </testsuite>

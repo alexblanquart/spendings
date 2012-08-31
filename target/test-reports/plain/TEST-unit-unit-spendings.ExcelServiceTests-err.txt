@@ -1,3 +1,2 @@
---Output from testDateParsing--
 --Output from testTypeParsing--
 --Output from testImportingFile--

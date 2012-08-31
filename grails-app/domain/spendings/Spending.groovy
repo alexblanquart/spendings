@@ -7,9 +7,10 @@ class Spending {
 	Type type
 	String checkId
 	String label
-	// category
+	String category
 
     static constraints = {
+		amount nullable:false
 		label blank:true, nullable:true, validator:{ val, obj ->
 			// only checks may have no label
 			if (obj.type != Type.CHECK && val == null){
@@ -18,7 +19,6 @@ class Spending {
 				return true
 			}
 		}
-		amount nullable:false
 		date nullable:false
 		type nullable:false, inList:[Type.CHECK, Type.CREDIT_CARD, Type.DEBIT, Type.TRANSFER]
 		checkId blank:true, nullable:true, validator:{ val, obj ->
@@ -29,5 +29,6 @@ class Spending {
 				return true
 			}
 		}
+		category nullable:true
     }
 }

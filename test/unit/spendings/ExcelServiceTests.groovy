@@ -11,12 +11,6 @@ import org.junit.*
 @TestFor(ExcelService)
 @Mock([Spending])
 class ExcelServiceTests {
-
-    void testDateParsing() {
-        def dateAsString = "07/06/2012"
-		def date = service.getDateFromString(dateAsString)
-		assert date.format("MM-dd-yyyy") == "06-07-2012" 
-    }
 	
 	void testTypeParsing(){
 		assert service.getTypeFromString("Chèque") == Type.CHECK
@@ -31,4 +25,5 @@ class ExcelServiceTests {
 		}
 		assert Spending.count() != 0
 	}
+	
 }

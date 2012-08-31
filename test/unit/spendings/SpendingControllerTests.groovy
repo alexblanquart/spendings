@@ -24,13 +24,13 @@ class SpendingControllerTests {
 		// mock request
 		controller.metaClass.request = new MockMultipartHttpServletRequest()
 		new File("test/unit/spendings/basic.xls").withInputStream { stream ->
-			controller.request.addFile(new MockMultipartFile('fileToImport', stream))
+			controller.request.addFile(new MockMultipartFile('file', stream))
 		}
 		controller.request.setMethod("POST")
-		assert controller.request.getFile("fileToImport")
+		assert controller.request.getFile("file")
 		
 		// import by calling controller
-		controller.importExcelFile()
+		controller.upload()
 
 		// assert
 		excelService.verify()

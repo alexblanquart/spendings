@@ -1,4 +1,195 @@
---Output from testDateParsing--
 --Output from testTypeParsing--
 --Output from testImportingFile--
-Importing ...
+Importing data ...
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
+key : food
+value : AUCHAN,SUPERMARCHE,LIDL,ENVIES,CARREFOUR,RELAY,CARLIER,INTERMARCHE
+pattern : AUCHAN
+pattern : SUPERMARCHE
+pattern : LIDL
+pattern : ENVIES
+pattern : CARREFOUR
+pattern : RELAY
+pattern : CARLIER
+pattern : INTERMARCHE
+key : construction
+value : LEROY,CASTO,LAPEYRE
+pattern : LEROY
+pattern : CASTO
+pattern : LAPEYRE
+key : tax
+value : PUBLIC
+pattern : PUBLIC
+key : energy
+value : EDF,GDF,EAUX DU NORD
+pattern : EDF
+pattern : GDF
+pattern : EAUX DU NORD
+key : baby
+value : VERBAUDET,T A O, EVEIL&JEUX
+pattern : VERBAUDET
+pattern : T A O
+pattern :  EVEIL&JEUX
+key : insurance
+value : GMF
+pattern : GMF
+key : salary
+value : PERIGEE,ROQUETTE
+pattern : PERIGEE
+pattern : ROQUETTE
+key : health
+value : PHARM,PHIE,MALAKOFF
+pattern : PHARM
+pattern : PHIE
+pattern : MALAKOFF
+key : transfer
+value : VIREMENT
+pattern : VIREMENT
+key : debit
+value : RETRAIT
+pattern : RETRAIT
+key : house
+value : AMBIANCE,BOULANGER,ZODIO
+pattern : AMBIANCE
+pattern : BOULANGER
+pattern : ZODIO
+key : gift
+value : PICKWICK
+pattern : PICKWICK
+key : internet
+value : NUMERICABLE,Free Mobile
+pattern : NUMERICABLE
+pattern : Free Mobile
+key : car
+value : NORAUTO
+pattern : NORAUTO
+key : rent
+value : PRET IMMOBILIER
+pattern : PRET IMMOBILIER
