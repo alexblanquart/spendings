@@ -9,7 +9,7 @@ class ExcelService {
 	 */
 	def importData(InputStream stream) {
 		println "Importing data ..."
-		
+
 		new ExcelBuilder(stream).eachLine([labels:true]) {
 			// call intermediate methods for date and type parsing from string representations
 			def spending = new Spending(
@@ -47,12 +47,12 @@ class ExcelService {
 	def getCategoryFromString(String label){
 		if (label == null)
 			return null
-		
-		def category = "other"
-		Utils.getCategoryConfiguration().each { key, value ->
+
+		def category = ""
+		Utils.getCategories().each { key, value ->
 			value.split(",").each { pattern ->
 				if (label.contains(pattern)){
-					category = key 
+					category = key
 				}
 			}
 		}

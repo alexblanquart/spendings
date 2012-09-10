@@ -19,9 +19,9 @@ class SpendingController {
 	def overview = {
 		// columns
 		def totalByMonthAndCategoryColumns = [['string', 'Month']]
-		
+
 		def numberOfCategories = 0
-		Utils.getCategoryConfiguration().each { key, value ->
+		Utils.getCategories().each { key, value ->
 			totalByMonthAndCategoryColumns.add(['number', key])
 			numberOfCategories++
 		}
@@ -39,7 +39,7 @@ class SpendingController {
 		months.each { m ->
 			def dataForThisMonth = [m.value]
 			def globalTotal = 0
-			Utils.getCategoryConfiguration().each { key, value ->
+			Utils.getCategories().each { key, value ->
 				def query = Spending.where {
 					month(date) == m.key + 1 && category == key
 				}
@@ -72,6 +72,6 @@ class SpendingController {
 
 		def series = new Expando((numberOfCategories):new Expando(type:'line'))
 		render template: "chart", model: ["totalByMonthAndCategoryColumns": totalByMonthAndCategoryColumns,
-					"totalByMonthAndCategoryData": totalByMonthAndCategoryData, "series":series]
+					"totalByMonthAndCategoryData": totalByMonthAndCategoryData, "series":series, "net":Utils.getNetSalary(), "gross":Utils.getGrossPay()]
 	}
 }

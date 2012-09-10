@@ -7,12 +7,23 @@ class Utils {
 	/**
 	 * @return map of category/pattern
 	 */
-	static def getCategoryConfiguration(){
-		def categoryFile = new File('grails-app/conf/Category.groovy')
-		def config = new ConfigSlurper().parse(categoryFile.toURL())
-		config.category.flatten()
+	static def getCategories(){
+		getInformations().category.flatten()
 	}
-
+	
+	static def getNetSalary(){
+		getInformations().salary.net
+	}
+	
+	static def getGrossPay(){
+		getInformations().salary.gross
+	}
+	
+	static def getInformations(){
+		def categoryFile = new File('grails-app/conf/Information.groovy')
+		new ConfigSlurper().parse(categoryFile.toURL())
+	}
+	
 	/**
 	 * @param dateAsString	should be of the form "07/06/2012"
 	 * @return
