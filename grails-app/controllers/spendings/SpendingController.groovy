@@ -13,10 +13,10 @@ class SpendingController {
 
 	def upload = {
 		excelService.importData request.getFile('file').inputStream
-		redirect action:'list'
+		redirect action:'steps'
 	}
 
-	def overview = {
+	def steps = {
 		// columns
 		def totalByMonthAndCategoryColumns = [['string', 'Month']]
 
@@ -28,10 +28,9 @@ class SpendingController {
 		totalByMonthAndCategoryColumns.add(['number', 'Global total'])
 
 		def months = [
-					(Calendar.JUNE):'June',
-					(Calendar.JULY):'July',
 					(Calendar.AUGUST):'August',
 					(Calendar.SEPTEMBER):'September',
+					(Calendar.OCTOBER):'October'
 				]
 
 		// data
@@ -53,25 +52,8 @@ class SpendingController {
 			totalByMonthAndCategoryData.add(dataForThisMonth)
 		}
 
-		/*def totalByCategoryColumns = [
-		 ['string', 'Category'],
-		 ['number', 'Total']
-		 ]
-		 def spendingsDataForPieChart = Category.inject([]) { data, category ->
-		 def total = Spending.findAllByCategory(category).inject(0) { total, spending ->
-		 total += spending.amount
-		 }
-		 println "Total for " + category + " of " + total
-		 if (total > 0){
-		 data.add([category, total])
-		 } else {
-		 data.add([category, Math.abs(total)])
-		 }
-		 data
-		 }*/
-
 		def series = new Expando((numberOfCategories):new Expando(type:'line'))
-		render template: "chart", model: ["totalByMonthAndCategoryColumns": totalByMonthAndCategoryColumns,
+		["totalByMonthAndCategoryColumns": totalByMonthAndCategoryColumns,
 					"totalByMonthAndCategoryData": totalByMonthAndCategoryData, "series":series, "net":Utils.getNetSalary(), "gross":Utils.getGrossPay()]
 	}
 }

@@ -8,7 +8,7 @@ class Spending {
 	String checkId
 	String label
 	String category
-
+	
     static constraints = {
 		amount nullable:false
 		label blank:true, nullable:true, validator:{ val, obj ->
