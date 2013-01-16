@@ -28,9 +28,10 @@ class SpendingController {
 		totalByMonthAndCategoryColumns.add(['number', 'Global total'])
 
 		def months = [
-					(Calendar.AUGUST):'August',
 					(Calendar.SEPTEMBER):'September',
-					(Calendar.OCTOBER):'October'
+					(Calendar.OCTOBER):'October',
+					(Calendar.DECEMBER):'December',
+					(Calendar.JANUARY):'January'
 				]
 
 		// data
